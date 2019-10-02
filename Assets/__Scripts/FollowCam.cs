@@ -31,6 +31,7 @@ public class FollowCam : MonoBehaviour {
         {
             // Get the position of the poi
             destination = POI.transform.position;
+
             // If poi is a Projectile, check to see if it's at rest
             if (POI.tag == "Projectile")
             {
